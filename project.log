@@ -680,3 +680,556 @@ From this heatmap, we can see that flipper_length_mm and body_mass_g show strong
 2026-06-03 10:00:28 | INFO | EDA | ========================
 2026-06-03 10:00:28 | INFO | EDA | Executed successfully!
 2026-06-03 10:00:28 | INFO | EDA | ========================
+2026-06-03 11:32:53 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:32:53 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:32:53 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:32:53 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:32:53 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:32:53 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:32:53 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:32:53 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:32:53 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:32:53 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:32:53 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:32:53 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:32:53 | INFO | EDA-NB | Column names
+2026-06-03 11:32:53 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:33:30 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:33:30 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:33:30 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:33:30 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:33:30 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:33:30 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:33:30 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:33:30 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:33:30 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:33:30 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:33:30 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:33:30 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:33:30 | INFO | EDA-NB | Column names
+2026-06-03 11:33:30 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:33:30 | INFO | EDA-NB | Dataset shape: 150 rows, 5 columns
+2026-06-03 11:33:30 | INFO | EDA-NB | Building starter data dictionary
+2026-06-03 11:33:30 | DEBUG | EDA-NB | 
+         column    dtype  missing_count  missing_pct
+0  sepal_length  float64              0          0.0
+1   sepal_width  float64              0          0.0
+2  petal_length  float64              0          0.0
+3   petal_width  float64              0          0.0
+4       species      str              0          0.0
+2026-06-03 11:33:30 | INFO | EDA-NB | Missing values per column:
+2026-06-03 11:33:30 | INFO | EDA-NB | sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:33:30 | INFO | EDA-NB | Checking missing values per column
+2026-06-03 11:33:30 | DEBUG | EDA-NB | 
+sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:33:30 | INFO | EDA-NB | Duplicate rows detected: 1
+2026-06-03 11:33:30 | INFO | EDA-NB | Call describe() for numeric columns
+2026-06-03 11:33:30 | DEBUG | EDA-NB | 
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+2026-06-03 11:34:19 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:34:19 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:34:19 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:34:19 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:34:19 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:34:19 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:34:19 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:34:19 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:34:19 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:34:19 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:34:19 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:34:19 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:34:19 | INFO | EDA-NB | Column names
+2026-06-03 11:34:19 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:34:19 | INFO | EDA-NB | Dataset shape: 150 rows, 5 columns
+2026-06-03 11:34:19 | INFO | EDA-NB | Building starter data dictionary
+2026-06-03 11:34:19 | DEBUG | EDA-NB | 
+         column    dtype  missing_count  missing_pct
+0  sepal_length  float64              0          0.0
+1   sepal_width  float64              0          0.0
+2  petal_length  float64              0          0.0
+3   petal_width  float64              0          0.0
+4       species      str              0          0.0
+2026-06-03 11:34:19 | INFO | EDA-NB | Missing values per column:
+2026-06-03 11:34:19 | INFO | EDA-NB | sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:34:19 | INFO | EDA-NB | Checking missing values per column
+2026-06-03 11:34:19 | DEBUG | EDA-NB | 
+sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:34:19 | INFO | EDA-NB | Duplicate rows detected: 1
+2026-06-03 11:34:19 | INFO | EDA-NB | Call describe() for numeric columns
+2026-06-03 11:34:19 | DEBUG | EDA-NB | 
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+2026-06-03 11:34:19 | DEBUG | EDA-NB | Columns required to be non-missing: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-06-03 11:34:19 | INFO | EDA-NB | Original rows: 150
+2026-06-03 11:34:19 | INFO | EDA-NB | Clean rows:    150
+2026-06-03 11:34:19 | INFO | EDA-NB | Rows dropped:  0
+2026-06-03 11:37:08 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:37:08 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:37:08 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:37:08 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:37:08 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:37:08 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:37:08 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:37:08 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:37:08 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:37:08 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:37:08 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:37:08 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:37:08 | INFO | EDA-NB | Column names
+2026-06-03 11:37:08 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:37:08 | INFO | EDA-NB | Dataset shape: 150 rows, 5 columns
+2026-06-03 11:37:08 | INFO | EDA-NB | Building starter data dictionary
+2026-06-03 11:37:08 | DEBUG | EDA-NB | 
+         column    dtype  missing_count  missing_pct
+0  sepal_length  float64              0          0.0
+1   sepal_width  float64              0          0.0
+2  petal_length  float64              0          0.0
+3   petal_width  float64              0          0.0
+4       species      str              0          0.0
+2026-06-03 11:37:08 | INFO | EDA-NB | Missing values per column:
+2026-06-03 11:37:08 | INFO | EDA-NB | sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:37:08 | INFO | EDA-NB | Checking missing values per column
+2026-06-03 11:37:08 | DEBUG | EDA-NB | 
+sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:37:08 | INFO | EDA-NB | Duplicate rows detected: 1
+2026-06-03 11:37:08 | INFO | EDA-NB | Call describe() for numeric columns
+2026-06-03 11:37:08 | DEBUG | EDA-NB | 
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+2026-06-03 11:37:08 | DEBUG | EDA-NB | Columns required to be non-missing: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-06-03 11:37:08 | INFO | EDA-NB | Original rows: 150
+2026-06-03 11:37:08 | INFO | EDA-NB | Clean rows:    150
+2026-06-03 11:37:08 | INFO | EDA-NB | Rows dropped:  0
+2026-06-03 11:37:08 | INFO | EDA-NB | --------------- Manual statistics ---------------
+2026-06-03 11:37:08 | INFO | EDA-NB | Petal Length Statistics (using numpy):
+2026-06-03 11:37:08 | INFO | EDA-NB |   Mean: 3.76 
+2026-06-03 11:37:08 | INFO | EDA-NB |   Std Dev: 1.76 
+2026-06-03 11:37:08 | INFO | EDA-NB |   Min: 1.00 
+2026-06-03 11:37:08 | INFO | EDA-NB |   Max: 6.90 
+2026-06-03 11:37:08 | INFO | EDA-NB |   Range: 5.90 
+2026-06-03 11:37:08 | INFO | EDA-NB | Computing overall descriptive statistics
+2026-06-03 11:37:08 | DEBUG | EDA-NB | 
+              count      mean       std  min  25%   50%  75%  max
+sepal_length  150.0  5.843333  0.828066  4.3  5.1  5.80  6.4  7.9
+sepal_width   150.0  3.057333  0.435866  2.0  2.8  3.00  3.3  4.4
+petal_length  150.0  3.758000  1.765298  1.0  1.6  4.35  5.1  6.9
+petal_width   150.0  1.199333  0.762238  0.1  0.3  1.30  1.8  2.5
+2026-06-03 11:37:08 | INFO | EDA-NB | --------------- Using pandas groupby() and agg() ---------------
+2026-06-03 11:37:08 | INFO | EDA-NB | Computing descriptive statistics by group
+2026-06-03 11:37:08 | DEBUG | EDA-NB | 
+           sepal_length                            sepal_width                            petal_length         \
+                  count   mean       std  min  max       count   mean       std  min  max        count   mean   
+species                                                                                                         
+setosa               50  5.006  0.352490  4.3  5.8          50  3.428  0.379064  2.3  4.4           50  1.462   
+versicolor           50  5.936  0.516171  4.9  7.0          50  2.770  0.313798  2.0  3.4           50  4.260   
+virginica            50  6.588  0.635880  4.9  7.9          50  2.974  0.322497  2.2  3.8           50  5.552   
+
+                               petal_width                             
+                 std  min  max       count   mean       std  min  max  
+species                                                                
+setosa      0.173664  1.0  1.9          50  0.246  0.105386  0.1  0.6  
+versicolor  0.469911  3.0  5.1          50  1.326  0.197753  1.0  1.8  
+virginica   0.551895  4.5  6.9          50  2.026  0.274650  1.4  2.5  
+2026-06-03 11:37:08 | INFO | EDA-NB | --------------- Improving the output ---------------
+2026-06-03 11:37:08 | DEBUG | EDA-NB | 
+                         count   mean       std  min  max
+species                                                  
+setosa     sepal_length     50  5.006  0.352490  4.3  5.8
+           sepal_width      50  3.428  0.379064  2.3  4.4
+           petal_length     50  1.462  0.173664  1.0  1.9
+           petal_width      50  0.246  0.105386  0.1  0.6
+versicolor sepal_length     50  5.936  0.516171  4.9  7.0
+           sepal_width      50  2.770  0.313798  2.0  3.4
+           petal_length     50  4.260  0.469911  3.0  5.1
+           petal_width      50  1.326  0.197753  1.0  1.8
+virginica  sepal_length     50  6.588  0.635880  4.9  7.9
+           sepal_width      50  2.974  0.322497  2.2  3.8
+           petal_length     50  5.552  0.551895  4.5  6.9
+           petal_width      50  2.026  0.274650  1.4  2.5
+2026-06-03 11:39:21 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:39:21 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:39:21 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:39:21 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:39:21 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:39:21 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:39:21 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:39:21 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:39:21 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:39:21 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:39:21 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:39:21 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:39:21 | INFO | EDA-NB | Column names
+2026-06-03 11:39:21 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:39:21 | INFO | EDA-NB | Dataset shape: 150 rows, 5 columns
+2026-06-03 11:39:21 | INFO | EDA-NB | Building starter data dictionary
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+         column    dtype  missing_count  missing_pct
+0  sepal_length  float64              0          0.0
+1   sepal_width  float64              0          0.0
+2  petal_length  float64              0          0.0
+3   petal_width  float64              0          0.0
+4       species      str              0          0.0
+2026-06-03 11:39:21 | INFO | EDA-NB | Missing values per column:
+2026-06-03 11:39:21 | INFO | EDA-NB | sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:39:21 | INFO | EDA-NB | Checking missing values per column
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:39:21 | INFO | EDA-NB | Duplicate rows detected: 1
+2026-06-03 11:39:21 | INFO | EDA-NB | Call describe() for numeric columns
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+2026-06-03 11:39:21 | DEBUG | EDA-NB | Columns required to be non-missing: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-06-03 11:39:21 | INFO | EDA-NB | Original rows: 150
+2026-06-03 11:39:21 | INFO | EDA-NB | Clean rows:    150
+2026-06-03 11:39:21 | INFO | EDA-NB | Rows dropped:  0
+2026-06-03 11:39:21 | INFO | EDA-NB | --------------- Manual statistics ---------------
+2026-06-03 11:39:21 | INFO | EDA-NB | Petal Length Statistics (using numpy):
+2026-06-03 11:39:21 | INFO | EDA-NB |   Mean: 3.76 
+2026-06-03 11:39:21 | INFO | EDA-NB |   Std Dev: 1.76 
+2026-06-03 11:39:21 | INFO | EDA-NB |   Min: 1.00 
+2026-06-03 11:39:21 | INFO | EDA-NB |   Max: 6.90 
+2026-06-03 11:39:21 | INFO | EDA-NB |   Range: 5.90 
+2026-06-03 11:39:21 | INFO | EDA-NB | Computing overall descriptive statistics
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+              count      mean       std  min  25%   50%  75%  max
+sepal_length  150.0  5.843333  0.828066  4.3  5.1  5.80  6.4  7.9
+sepal_width   150.0  3.057333  0.435866  2.0  2.8  3.00  3.3  4.4
+petal_length  150.0  3.758000  1.765298  1.0  1.6  4.35  5.1  6.9
+petal_width   150.0  1.199333  0.762238  0.1  0.3  1.30  1.8  2.5
+2026-06-03 11:39:21 | INFO | EDA-NB | --------------- Using pandas groupby() and agg() ---------------
+2026-06-03 11:39:21 | INFO | EDA-NB | Computing descriptive statistics by group
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+           sepal_length                            sepal_width                            petal_length         \
+                  count   mean       std  min  max       count   mean       std  min  max        count   mean   
+species                                                                                                         
+setosa               50  5.006  0.352490  4.3  5.8          50  3.428  0.379064  2.3  4.4           50  1.462   
+versicolor           50  5.936  0.516171  4.9  7.0          50  2.770  0.313798  2.0  3.4           50  4.260   
+virginica            50  6.588  0.635880  4.9  7.9          50  2.974  0.322497  2.2  3.8           50  5.552   
+
+                               petal_width                             
+                 std  min  max       count   mean       std  min  max  
+species                                                                
+setosa      0.173664  1.0  1.9          50  0.246  0.105386  0.1  0.6  
+versicolor  0.469911  3.0  5.1          50  1.326  0.197753  1.0  1.8  
+virginica   0.551895  4.5  6.9          50  2.026  0.274650  1.4  2.5  
+2026-06-03 11:39:21 | INFO | EDA-NB | --------------- Improving the output ---------------
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+                         count   mean       std  min  max
+species                                                  
+setosa     sepal_length     50  5.006  0.352490  4.3  5.8
+           sepal_width      50  3.428  0.379064  2.3  4.4
+           petal_length     50  1.462  0.173664  1.0  1.9
+           petal_width      50  0.246  0.105386  0.1  0.6
+versicolor sepal_length     50  5.936  0.516171  4.9  7.0
+           sepal_width      50  2.770  0.313798  2.0  3.4
+           petal_length     50  4.260  0.469911  3.0  5.1
+           petal_width      50  1.326  0.197753  1.0  1.8
+virginica  sepal_length     50  6.588  0.635880  4.9  7.9
+           sepal_width      50  2.974  0.322497  2.2  3.8
+           petal_length     50  5.552  0.551895  4.5  6.9
+           petal_width      50  2.026  0.274650  1.4  2.5
+2026-06-03 11:39:21 | INFO | EDA-NB | Computing correlation matrix for numeric columns
+2026-06-03 11:39:21 | INFO | EDA-NB | 
+Correlation matrix:
+2026-06-03 11:39:21 | DEBUG | EDA-NB | 
+              sepal_length  sepal_width  petal_length  petal_width
+sepal_length      1.000000    -0.117570      0.871754     0.817941
+sepal_width      -0.117570     1.000000     -0.428440    -0.366126
+petal_length      0.871754    -0.428440      1.000000     0.962865
+petal_width       0.817941    -0.366126      0.962865     1.000000
+2026-06-03 11:39:28 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:39:28 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:39:28 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:39:28 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:39:28 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:39:28 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:39:28 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:39:28 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:39:28 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:39:28 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:39:28 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:39:28 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:39:28 | INFO | EDA-NB | Column names
+2026-06-03 11:39:28 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:39:28 | INFO | EDA-NB | Dataset shape: 150 rows, 5 columns
+2026-06-03 11:39:28 | INFO | EDA-NB | Building starter data dictionary
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+         column    dtype  missing_count  missing_pct
+0  sepal_length  float64              0          0.0
+1   sepal_width  float64              0          0.0
+2  petal_length  float64              0          0.0
+3   petal_width  float64              0          0.0
+4       species      str              0          0.0
+2026-06-03 11:39:28 | INFO | EDA-NB | Missing values per column:
+2026-06-03 11:39:28 | INFO | EDA-NB | sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:39:28 | INFO | EDA-NB | Checking missing values per column
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:39:28 | INFO | EDA-NB | Duplicate rows detected: 1
+2026-06-03 11:39:28 | INFO | EDA-NB | Call describe() for numeric columns
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+2026-06-03 11:39:28 | DEBUG | EDA-NB | Columns required to be non-missing: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-06-03 11:39:28 | INFO | EDA-NB | Original rows: 150
+2026-06-03 11:39:28 | INFO | EDA-NB | Clean rows:    150
+2026-06-03 11:39:28 | INFO | EDA-NB | Rows dropped:  0
+2026-06-03 11:39:28 | INFO | EDA-NB | --------------- Manual statistics ---------------
+2026-06-03 11:39:28 | INFO | EDA-NB | Petal Length Statistics (using numpy):
+2026-06-03 11:39:28 | INFO | EDA-NB |   Mean: 3.76 
+2026-06-03 11:39:28 | INFO | EDA-NB |   Std Dev: 1.76 
+2026-06-03 11:39:28 | INFO | EDA-NB |   Min: 1.00 
+2026-06-03 11:39:28 | INFO | EDA-NB |   Max: 6.90 
+2026-06-03 11:39:28 | INFO | EDA-NB |   Range: 5.90 
+2026-06-03 11:39:28 | INFO | EDA-NB | Computing overall descriptive statistics
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+              count      mean       std  min  25%   50%  75%  max
+sepal_length  150.0  5.843333  0.828066  4.3  5.1  5.80  6.4  7.9
+sepal_width   150.0  3.057333  0.435866  2.0  2.8  3.00  3.3  4.4
+petal_length  150.0  3.758000  1.765298  1.0  1.6  4.35  5.1  6.9
+petal_width   150.0  1.199333  0.762238  0.1  0.3  1.30  1.8  2.5
+2026-06-03 11:39:28 | INFO | EDA-NB | --------------- Using pandas groupby() and agg() ---------------
+2026-06-03 11:39:28 | INFO | EDA-NB | Computing descriptive statistics by group
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+           sepal_length                            sepal_width                            petal_length         \
+                  count   mean       std  min  max       count   mean       std  min  max        count   mean   
+species                                                                                                         
+setosa               50  5.006  0.352490  4.3  5.8          50  3.428  0.379064  2.3  4.4           50  1.462   
+versicolor           50  5.936  0.516171  4.9  7.0          50  2.770  0.313798  2.0  3.4           50  4.260   
+virginica            50  6.588  0.635880  4.9  7.9          50  2.974  0.322497  2.2  3.8           50  5.552   
+
+                               petal_width                             
+                 std  min  max       count   mean       std  min  max  
+species                                                                
+setosa      0.173664  1.0  1.9          50  0.246  0.105386  0.1  0.6  
+versicolor  0.469911  3.0  5.1          50  1.326  0.197753  1.0  1.8  
+virginica   0.551895  4.5  6.9          50  2.026  0.274650  1.4  2.5  
+2026-06-03 11:39:28 | INFO | EDA-NB | --------------- Improving the output ---------------
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+                         count   mean       std  min  max
+species                                                  
+setosa     sepal_length     50  5.006  0.352490  4.3  5.8
+           sepal_width      50  3.428  0.379064  2.3  4.4
+           petal_length     50  1.462  0.173664  1.0  1.9
+           petal_width      50  0.246  0.105386  0.1  0.6
+versicolor sepal_length     50  5.936  0.516171  4.9  7.0
+           sepal_width      50  2.770  0.313798  2.0  3.4
+           petal_length     50  4.260  0.469911  3.0  5.1
+           petal_width      50  1.326  0.197753  1.0  1.8
+virginica  sepal_length     50  6.588  0.635880  4.9  7.9
+           sepal_width      50  2.974  0.322497  2.2  3.8
+           petal_length     50  5.552  0.551895  4.5  6.9
+           petal_width      50  2.026  0.274650  1.4  2.5
+2026-06-03 11:39:28 | INFO | EDA-NB | Computing correlation matrix for numeric columns
+2026-06-03 11:39:28 | INFO | EDA-NB | 
+Correlation matrix:
+2026-06-03 11:39:28 | DEBUG | EDA-NB | 
+              sepal_length  sepal_width  petal_length  petal_width
+sepal_length      1.000000    -0.117570      0.871754     0.817941
+sepal_width      -0.117570     1.000000     -0.428440    -0.366126
+petal_length      0.871754    -0.428440      1.000000     0.962865
+petal_width       0.817941    -0.366126      0.962865     1.000000
+2026-06-03 11:39:28 | INFO | EDA-NB | ---------Visualize Correlation Matrix as a Heatmap---------------
+2026-06-03 11:46:00 | INFO | EDA-NB | === RUN START ===
+2026-06-03 11:46:00 | INFO | EDA-NB | project=EDA-NB
+2026-06-03 11:46:00 | INFO | EDA-NB | repo_dir=datafun-04-notebooks
+2026-06-03 11:46:00 | INFO | EDA-NB | python=3.14.3
+2026-06-03 11:46:00 | INFO | EDA-NB | os=Windows 11
+2026-06-03 11:46:00 | INFO | EDA-NB | shell=powershell
+2026-06-03 11:46:00 | INFO | EDA-NB | cwd=notebooks
+2026-06-03 11:46:00 | INFO | EDA-NB | github_actions=False
+2026-06-03 11:46:00 | INFO | EDA-NB | Imports complete.
+2026-06-03 11:46:00 | INFO | EDA-NB | Loading dataset: iris
+2026-06-03 11:46:00 | INFO | EDA-NB | Loaded: 150 rows, 5 columns
+2026-06-03 11:46:00 | INFO | EDA-NB | Previewing first few rows of the dataset
+2026-06-03 11:46:00 | INFO | EDA-NB | Column names
+2026-06-03 11:46:00 | INFO | EDA-NB | DataFrame info (types and non-null counts)
+2026-06-03 11:46:00 | INFO | EDA-NB | Dataset shape: 150 rows, 5 columns
+2026-06-03 11:46:00 | INFO | EDA-NB | Building starter data dictionary
+2026-06-03 11:46:00 | DEBUG | EDA-NB | 
+         column    dtype  missing_count  missing_pct
+0  sepal_length  float64              0          0.0
+1   sepal_width  float64              0          0.0
+2  petal_length  float64              0          0.0
+3   petal_width  float64              0          0.0
+4       species      str              0          0.0
+2026-06-03 11:46:01 | INFO | EDA-NB | Missing values per column:
+2026-06-03 11:46:01 | INFO | EDA-NB | sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:46:01 | INFO | EDA-NB | Checking missing values per column
+2026-06-03 11:46:01 | DEBUG | EDA-NB | 
+sepal_length    0
+sepal_width     0
+petal_length    0
+petal_width     0
+species         0
+dtype: int64
+2026-06-03 11:46:01 | INFO | EDA-NB | Duplicate rows detected: 1
+2026-06-03 11:46:01 | INFO | EDA-NB | Call describe() for numeric columns
+2026-06-03 11:46:01 | DEBUG | EDA-NB | 
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+2026-06-03 11:46:01 | DEBUG | EDA-NB | Columns required to be non-missing: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-06-03 11:46:01 | INFO | EDA-NB | Original rows: 150
+2026-06-03 11:46:01 | INFO | EDA-NB | Clean rows:    150
+2026-06-03 11:46:01 | INFO | EDA-NB | Rows dropped:  0
+2026-06-03 11:46:01 | INFO | EDA-NB | --------------- Manual statistics ---------------
+2026-06-03 11:46:01 | INFO | EDA-NB | Petal Length Statistics (using numpy):
+2026-06-03 11:46:01 | INFO | EDA-NB |   Mean: 3.76 
+2026-06-03 11:46:01 | INFO | EDA-NB |   Std Dev: 1.76 
+2026-06-03 11:46:01 | INFO | EDA-NB |   Min: 1.00 
+2026-06-03 11:46:01 | INFO | EDA-NB |   Max: 6.90 
+2026-06-03 11:46:01 | INFO | EDA-NB |   Range: 5.90 
+2026-06-03 11:46:01 | INFO | EDA-NB | Computing overall descriptive statistics
+2026-06-03 11:46:01 | DEBUG | EDA-NB | 
+              count      mean       std  min  25%   50%  75%  max
+sepal_length  150.0  5.843333  0.828066  4.3  5.1  5.80  6.4  7.9
+sepal_width   150.0  3.057333  0.435866  2.0  2.8  3.00  3.3  4.4
+petal_length  150.0  3.758000  1.765298  1.0  1.6  4.35  5.1  6.9
+petal_width   150.0  1.199333  0.762238  0.1  0.3  1.30  1.8  2.5
+2026-06-03 11:46:01 | INFO | EDA-NB | --------------- Using pandas groupby() and agg() ---------------
+2026-06-03 11:46:01 | INFO | EDA-NB | Computing descriptive statistics by group
+2026-06-03 11:46:01 | DEBUG | EDA-NB | 
+           sepal_length                            sepal_width                            petal_length         \
+                  count   mean       std  min  max       count   mean       std  min  max        count   mean   
+species                                                                                                         
+setosa               50  5.006  0.352490  4.3  5.8          50  3.428  0.379064  2.3  4.4           50  1.462   
+versicolor           50  5.936  0.516171  4.9  7.0          50  2.770  0.313798  2.0  3.4           50  4.260   
+virginica            50  6.588  0.635880  4.9  7.9          50  2.974  0.322497  2.2  3.8           50  5.552   
+
+                               petal_width                             
+                 std  min  max       count   mean       std  min  max  
+species                                                                
+setosa      0.173664  1.0  1.9          50  0.246  0.105386  0.1  0.6  
+versicolor  0.469911  3.0  5.1          50  1.326  0.197753  1.0  1.8  
+virginica   0.551895  4.5  6.9          50  2.026  0.274650  1.4  2.5  
+2026-06-03 11:46:01 | INFO | EDA-NB | --------------- Improving the output ---------------
+2026-06-03 11:46:01 | DEBUG | EDA-NB | 
+                         count   mean       std  min  max
+species                                                  
+setosa     sepal_length     50  5.006  0.352490  4.3  5.8
+           sepal_width      50  3.428  0.379064  2.3  4.4
+           petal_length     50  1.462  0.173664  1.0  1.9
+           petal_width      50  0.246  0.105386  0.1  0.6
+versicolor sepal_length     50  5.936  0.516171  4.9  7.0
+           sepal_width      50  2.770  0.313798  2.0  3.4
+           petal_length     50  4.260  0.469911  3.0  5.1
+           petal_width      50  1.326  0.197753  1.0  1.8
+virginica  sepal_length     50  6.588  0.635880  4.9  7.9
+           sepal_width      50  2.974  0.322497  2.2  3.8
+           petal_length     50  5.552  0.551895  4.5  6.9
+           petal_width      50  2.026  0.274650  1.4  2.5
+2026-06-03 11:46:01 | INFO | EDA-NB | Computing correlation matrix for numeric columns
+2026-06-03 11:46:01 | INFO | EDA-NB | 
+Correlation matrix:
+2026-06-03 11:46:01 | DEBUG | EDA-NB | 
+              sepal_length  sepal_width  petal_length  petal_width
+sepal_length      1.000000    -0.117570      0.871754     0.817941
+sepal_width      -0.117570     1.000000     -0.428440    -0.366126
+petal_length      0.871754    -0.428440      1.000000     0.962865
+petal_width       0.817941    -0.366126      0.962865     1.000000
+2026-06-03 11:46:01 | INFO | EDA-NB | ---------Visualize Correlation Matrix as a Heatmap---------------
