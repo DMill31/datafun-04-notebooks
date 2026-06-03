@@ -138,6 +138,26 @@ git push -u origin main
 - Many files are silent helpers. Explore as you like, but nothing is required.
 - You do NOT not to understand everything; understanding builds naturally over time.
 
+## Technical Modification
+
+The modification for this repo can be found at src\datafun\app_miller.py
+
+The modification takes the original app_case.py and adds to the make_plots function.
+
+In this new make_plots, with both the scatter and box plots, a histogram is now added.
+
+This histogram shows the distribution of body masses among the penguins, and is saved
+in the artifacts folder as Figure_4_modification.png.
+
+From this histogram we can see that the penguins do not have a normal distribution of
+body mass.
+
+While there is one main peak between 3500 and 4000g, there are multiple smaller peaks
+that may indicate that the different species may have different body mass ranges.
+
+The custom project can be found at notebooks\eda_miller.ipynb, which is not to be
+confused with the technical modification script of src\datafun\app_miller.py.
+
 ## Troubleshooting >>>
 
 If you see something like this in your terminal: `>>>` or `...`
