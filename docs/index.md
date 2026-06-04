@@ -27,13 +27,44 @@ to get these projects running on your machine.
 ## Custom Project
 
 ### Dataset
-(Describe the dataset you used.)
+
+The dataset used is the Seaborn Iris dataset.
+
+This dataset contains information regarding different Iris flowers.
+
+The features are:
+- sepal_length
+- sepal_width
+- petal_length
+- petal_width
+- species
+
+This dataset contains 150 clean rows of data.
 
 ### Signals
-(Describe the signals used and/or created)
+
+No new signals were created from this dataset.
+
+Every feature from the original dataset was used, but there
+was a focus on species and the relationship between
+petal_length and petal_width.
+
+Species was the only categorical feature, as the rest are
+all numeric.
 
 ### Experiments
-(Describe your modification experiments)
+
+The first five sections of the custom project deal with cleaning and
+prepping the data.
+
+After that, stats are looked at for a more detailed look.
+
+A correlation matrix between the numeric fields was made as well as
+three more plots.
+
+A scatter plot to show Petal Length vs Petal Width, a box plot to show the
+stats and distribution of Petal Length by species, and a histogram to show
+the distribution of Petal Width across all plants.
 
 ### Results
 (Describe the results you observed)
