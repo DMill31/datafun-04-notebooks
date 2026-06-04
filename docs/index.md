@@ -70,24 +70,24 @@ the distribution of Petal Width across all plants.
 
 In the correlation matrix, very strong correlations were found.
 
-![corr_matrix](images\Iris_corr.png)
+![corr_matrix](images/Iris_corr.png)
 
 The strongest correlation happens between petal_length and petal_width.
 
 This correlation was then plotted on a scatter plot, showing not only the
 strong correlation but also the different species.
 
-![scatter](images\Iris_scatter.png)
+![scatter](images/Iris_scatter.png)
 
 Then the stats of petal_length by species was created using a box plot.
 
-![box](images\Iris_box.png)
+![box](images/Iris_box.png)
 
 Again, the clear difference in species is showcased here.
 
 Lastly, a histogram to show petal width for all plants was created.
 
-![histogram](images\Iris_hist.png)
+![histogram](images/Iris_hist.png)
 
 Here it can again be seen that there are likely three groups of petal widths.
 
